@@ -28,27 +28,79 @@ body {
   flex-direction: column;
   height: 100dvh;
   justify-content: center;
+  align-items: center;
   gap: 10rem;
 }
 
 .card {
   background-color: var(--white);
   border: 1px solid var(--gray_950);
-  border-radius: 1rem;
-  box-shadow: 6px 6px var(--gray_950);
-  padding: 1.2rem;
-  width: 300px;
+  border-radius: 1.2rem;
+  box-shadow: 8px 8px var(--gray_950);
+  padding: 1.4rem;
+  width: 280px;
 }
 
 .card__picture {
   margin: 0 auto;
-  width: 290px;
+  width: 280px;
   height: 200px;
   background-image: url("./assets/images/illustration-article.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+.card__type {
+  display: inline;
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 12px;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.2rem;
+  background-color: var(--yellow);
+}
+
+.card__publish-date {
+  font-family: "Figtree";
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 1.2rem;
+}
+
+.card__title {
+  font-family: "Figtree";
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.card__description {
+  font-family: "Figtree";
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: var(--gray_500);
+  line-height: 1.5;
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card__author-logo {
+  width: 11%;
+}
+
+.card__author-name {
+  font-family: "Figtree";
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .attribution {

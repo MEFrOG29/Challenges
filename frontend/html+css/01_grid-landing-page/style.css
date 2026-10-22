@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Inter";
-  src: url("/assets/fonts/inter/inter-variable.ttf");
+  src: url("./assets/fonts/inter/inter-variable.ttf");
   font-weight: 100 900;
 }
 
@@ -64,14 +64,14 @@ body {
 .header__menu-btn {
   border: 0;
   background-color: var(--blue_700);
-  background-image: url("/assets/images/icon-menu.svg");
+  background-image: url("./assets/images/icon-menu.svg");
   background-size: cover;
   height: 24px;
   width: 24px;
 }
 
 .header__menu-btn.close {
-  background-image: url("/assets/images/close.svg");
+  background-image: url("./assets/images/close.svg");
 }
 
 .main-grid {

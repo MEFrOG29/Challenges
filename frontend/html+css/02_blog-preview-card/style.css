@@ -110,3 +110,12 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 375px) {
+  .card {
+    width: 325px;
+  }
+  .card__picture {
+    width: auto;
+  }
+}

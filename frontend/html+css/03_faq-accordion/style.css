@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url("/assets/fonts/WorkSans-VariableFont_wght.ttf");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Work Sans Italic";
+  src: url("/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+  font-weight: 100 900;
+}
+
+:root {
+  --white: hsl(0, 100%, 100%);
+  --purple-100: hsl(275, 100%, 97%);
+  --purple-600: hsl(292, 16%, 49%);
+  --purple-950: hsl(292, 42%, 14%);
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-image: url("./assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+}
+
+.card__top {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.card__top-icon {
+  width: 8%;
+}
+
+.card__top-title {
+  color: var(--purple-950);
+}
+
+.card__question__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

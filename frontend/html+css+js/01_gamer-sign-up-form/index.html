@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Gamer sign-up form</title>
+  </head>
+  <body>
+
+      
+
+    <main class="main">
+      <div class="main__top">
+        <img src="./assets/images/logo.svg" alt="logo" class="main__top-logo" />
+        <p class="main__top-status"></p>
+         <h1 class="main__top-title"><span>// </span>JOIN THE NEXUS</h1>
+      <p class="main__top-desc">INITIALIZE YOUR NEONCORE IDENTITY</p>
+      <div class="separator"></div>
+      <div class="main__top-operator">
+        <p class="main__top-operator-id">OPERATOR ID</p>
+        <p class="main__top-operator-status">UNASSIGNED</p>
+      </div>
+      <div class="field">
+        <p class="field-name">CALLSIGN</p>
+        <div class="separator"></div>
+        <p class="field-status">PENDING</p>
+      </div>
+      <div class="field">
+        <p class="field-name">EMAIL</p>
+        <div class="separator"></div>
+        <p class="field-status">PENDING</p>
+      </div>
+      <div class="field">
+        <p class="field-name">PASSWORD</p>
+        <div class="separator"></div>
+        <p class="field-status">PENDING</p>
+      </div>
+      <div class="field">
+        <p class="field-name">CONFIRM</p>
+        <div class="separator"></div>
+        <p class="field-status">PENDING</p>
+      </div>
+      <div class="field">
+        <p class="field-name">TERMS</p>
+        <div class="separator"></div>
+        <p class="field-status">REQUIRED</p>
+      </div>
+      </div>
+     
+      <div class="main__form">
+        <div class="main__form-top">
+          <p class="main__form-top-operator">NEW OPERATOR</p>
+          <p class="main__form-top-required">ALL REQUIRED</p>
+        </div>
+        <div class="separator"></div>
+        <form action="" method="get" class="auth-form">
+          <div class="auth-form__field">
+            <label for="callsign"><span> > </span>CALLSIGN</label>
+            <div class="input-container">
+              <input
+                type="text"
+                name="callsign"
+                id="callsign"
+                placeholder="e.g. Vortex_07"
+              />
+            </div>
+            <p class="auth-form__field-desc">
+              3–20 characters: letters, numbers, _ or -
+            </p>
+          </div>
+          <div class="auth-form__field">
+            <label for="email"><span> > </span>EMAIL</label>
+            <div class="input-container">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="you@example.com"
+              />
+            </div>
+          </div>
+          <div class="auth-form__field">
+            <label for="password"><span> > </span>PASSWORD</label>
+            <div class="input-container">
+              <input type="password" name="password" id="password" />
+              <button class="show-btn"></button>
+            </div>
+            <div class="complexity-status-bar">
+              <div class="status-bar"></div>
+              <div class="status-bar"></div>
+              <div class="status-bar"></div>
+              <div class="status-bar"></div>
+            </div>
+            <p class="auth-form__field-desc">At least 8 characters</p>
+          </div>
+          <div class="auth-form__field">
+            <label for="password"><span> > </span>CONFIRM PASSWORD</label>
+            <div class="input-container">
+              <input type="password" name="email" id="email" />
+              <button class="show-btn"></button>
+            </div>
+          </div>
+          <div>
+            <div class="auth-form__checkbox">
+              <input type="checkbox" name="accept" id="accept" />
+              <span class="checkbox"></span>
+              <label for="accept">
+              I accept the
+              <a href="#" class="link">Terms</a> and
+              <a href="#" class="link">Privacy Policy.</a>
+              </label>
+            </div>
+          <input type="submit" value="INITIALIZE ACCOUNT" class="submit-btn" />
+        </form>
+        <p class="main__bottom">
+          Already an operator? <a href="#" class="link">Log in</a>
+        </p>
+      </div>
+    </main>
+
+  
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/mefrog29">mefrog29</a>.
+    </footer>
+  </body>
+</html>

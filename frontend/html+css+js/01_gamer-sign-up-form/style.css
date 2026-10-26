@@ -311,6 +311,10 @@ a {
   color: hsl(228, 45%, 44%);
 }
 
+.score-mobile {
+  color: var(--neutral-300);
+}
+
 @media (min-width: 700px) {
   .field {
     opacity: 1;
@@ -374,5 +378,9 @@ a {
 
   .desktop-container .main__top-status {
     display: block;
+  }
+
+  .score-desktop {
+    color: var(--neutral-300);
   }
 }
